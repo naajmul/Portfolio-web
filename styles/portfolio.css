@@ -25,6 +25,13 @@ body {
     padding: 18px 35px 19px 36px;
 }
 
+.section-title {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+}
+
 /* nav related css */
 
 nav {
@@ -111,4 +118,46 @@ nav>h1 {
 
 .devoloper-text {
     margin-top: 10px;
+}
+
+
+/* this is about section css */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-description {
+    color: var(--dark-03, #757575);
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.section-description1{
+    display: flex;
+    justify-content: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.info-title{
+    color: #757575;
+}
+
+info-discription{
+    color: #474747;
 }
