@@ -142,49 +142,91 @@ nav>h1 {
 
 }
 
-.section-description1{
+.section-description1 {
     display: flex;
     justify-content: center;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
     text-align: center;
 }
 
-.info-title{
+.info-title {
     color: #757575;
 }
 
-info-discription{
+info-discription {
     color: #474747;
 }
 
 /* what i do section css */
-.what-i-do{
+.what-i-do {
     max-width: 800px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.skills-container{
+.skills-container {
     display: flex;
-    
+
 }
 
-.skill{
+.skill {
     padding: 15px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     margin: 5px;
     margin-top: 15px;
 }
 
-.what-do-img{
+.what-do-img {
     margin-bottom: 9px;
 }
-.skill-title{
+
+.skill-title {
     margin-bottom: 9px;
+}
+
+/* resume part css */
+.resume-container {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+
+}
+
+.summary-section {
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.part-title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+}
+
+.resume-part hr {
+    margin: 20px 0px;
+}
+
+.education-insitiute-name {
+    color: var(--dark-02, #474747);
+}
+
+.institute {
+    color: var(--dark-03, #757575);
+}
+
+.institute-description {
+    color: var(--dark-03, #757575);
+    padding-top: 12px;
 }
