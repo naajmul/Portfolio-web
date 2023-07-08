@@ -203,7 +203,7 @@ info-discription {
     max-width: 800px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .part-title {
@@ -229,4 +229,9 @@ info-discription {
 .institute-description {
     color: var(--dark-03, #757575);
     padding-top: 12px;
+}
+
+.download-cv{
+    display: flex;
+    justify-content: center;
 }
