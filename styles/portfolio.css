@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common shared css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-text-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    flex-shrink: 0;
+    color: var(--white-color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    border: 0;
+    padding: 18px 35px 19px 36px;
+}
+
+/* nav related css */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #181818;
+}
+
+nav>h1 {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url("/images/developer.png");
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    background-position-x: 10px;
+    background-size: 90px 700px;
+}
+
+
+/* this is devoloper section  */
+
+.developer h3 {
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.developer p {
+    color: #757575;
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.najmul-img {
+    width: 584px;
+
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.devoloper-text {
+    margin-top: 10px;
+}
